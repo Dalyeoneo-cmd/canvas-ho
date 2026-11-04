@@ -1,18 +1,18 @@
 <p align="center">
-  <img src="icons/icon-192.png" width="112" alt="캔버스 호수 계산기 아이콘">
+  <img src="icons/icon-192.png" width="112" alt="캔버스 설치 시뮬레이터 아이콘">
 </p>
 
-<h1 align="center">캔버스 호수 계산기</h1>
+<h1 align="center">캔버스 설치 시뮬레이터</h1>
 
 <p align="center">
-  캔버스 호수 ↔ 실제 크기 변환부터<br>
-  전시 벽면 작품 배치까지, 한곳에서 해결해요.
+  <b>호수 계산부터 벽면 설치 시안까지</b><br>
+  호수를 헷갈릴 때 바로 찾아보고, 전시 벽에 작품을 미리 걸어 보세요.
 </p>
 
 <p align="center">
   <a href="https://dalyeoneo-cmd.github.io/canvas-ho/"><b>▶ 바로 쓰기</b></a>
   &nbsp;·&nbsp;
-  설치 없이 PC·휴대폰 브라우저에서 바로 열려요
+  따로 내려받을 것 없이 PC·휴대폰 브라우저에서 바로 열려요
 </p>
 
 <br>
