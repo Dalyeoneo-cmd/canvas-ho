@@ -9,6 +9,10 @@
   전시 벽면에 작품을 어떻게 걸지 미리 배치해 보는 도구예요.
 </p>
 
+<p align="center">
+  👉 <a href="https://dalyeoneo-cmd.github.io/canvas-ho/"><b>바로 쓰기: dalyeoneo-cmd.github.io/canvas-ho</b></a>
+</p>
+
 ---
 
 ## 이런 걸 할 수 있어요
@@ -38,21 +42,18 @@
 
 ## 바로 쓰기
 
-설치할 것은 없어요. `index.html`을 브라우저로 열면 바로 쓸 수 있어요.
+설치할 것은 없어요. 아래 주소로 들어가면 PC와 휴대폰에서 바로 쓸 수 있어요.
 
-GitHub Pages로 올리면 링크 하나로 누구나 쓸 수 있어요.
+**https://dalyeoneo-cmd.github.io/canvas-ho/**
 
-1. 이 폴더의 파일을 저장소에 그대로 올려요. (`index.html`이 저장소 맨 위에 있어야 해요.)
-2. 저장소의 **Settings → Pages**로 가요.
-3. **Source**를 `Deploy from a branch`, 브랜치를 `main`, 폴더를 `/ (root)`로 고르고 **Save**를 눌러요.
-4. 1~2분 뒤 `https://<깃허브 아이디>.github.io/<저장소 이름>/` 주소로 열려요.
+내려받은 `index.html`을 브라우저로 열어도 똑같이 써져요.
 
 ---
 
 ## 파일 구성
 
 ```
-canvas-ho-calculator/
+canvas-ho/
 ├── index.html              프로그램 전체 (화면, 디자인, 계산이 모두 이 파일 하나에 있어요)
 ├── README.md               이 설명 파일
 └── icons/
@@ -61,13 +62,9 @@ canvas-ho-calculator/
     └── apple-touch-icon.png  아이폰 홈 화면 아이콘
 ```
 
-### 올리기 전에 확인할 것
+### 참고: 방문 통계
 
-- **공유 미리보기 이미지**: 카카오톡이나 인스타그램에 링크를 붙였을 때 아이콘이 미리보기로 나오게 하려면, `index.html`의 `og:image` 값을 전체 주소로 바꿔주세요.
-  ```html
-  <meta property="og:image" content="https://<깃허브 아이디>.github.io/<저장소 이름>/icons/icon-512.png">
-  ```
-- **방문 통계**: `index.html` 맨 아래에 GoatCounter 코드(`dalyeoneo-tools`)가 들어 있어요. 다른 사이트 코드를 쓰려면 그 줄의 주소만 바꾸면 되고, 통계가 필요 없으면 그 줄을 지우면 돼요.
+`index.html` 맨 아래에 GoatCounter 코드(`dalyeoneo-tools`)가 들어 있어요. 통계가 필요 없으면 그 줄을 지우면 돼요.
 
 ---
 
