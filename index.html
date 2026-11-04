@@ -392,6 +392,17 @@ tbody tr:nth-child(even) td:not(.tc){background:color-mix(in srgb,var(--sunk) 60
 .credit b{color:var(--ink);font-weight:700;font-size:13.5px}
 .credit .en{font-family:var(--mono);font-size:11.5px;letter-spacing:.02em}
 .credit .dot{opacity:.6}
+/* PC: 로고 · 탭 · 사용법을 한 줄로 */
+@media (min-width:880px){
+  .top-in{display:flex;align-items:center;gap:10px;padding-block:0}
+  .brand{display:contents}
+  .mark{order:1}
+  .brand h1{order:1;font-size:18px}
+  .brand .ver{order:1}
+  .nav{order:2;flex:1;margin:0 0 0 32px;align-self:stretch;align-items:stretch;overflow:visible}
+  .nav button{padding:0 14px;height:64px;border-bottom-width:2px;font-size:14.5px}
+  .help-btn{order:3;margin-left:auto}
+}
 </style>
 </head>
 <body>
