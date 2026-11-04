@@ -70,13 +70,34 @@
 
 ## 만든 사람
 
-**달연어 (Dal Yeon-eo)** · 미술 작가
+**달연어 (Dal Yeon-eo)** · 미술 작가  
+인스타그램 [@dosalmon_ovo](https://www.instagram.com/dosalmon_ovo/)
 
 전시를 준비할 때마다 캔버스 호수를 헷갈리고, 벽 길이를 재며 몇 점을 걸 수 있을지 계산하는 게 번거로워서 만들었어요. 무료로 자유롭게 써주세요.
 
-링크로 소개하거나, 가져가서 고쳐 쓰거나 다시 공유할 때는 **출처(달연어)** 를 꼭 남겨주세요.
-
 © 2026 달연어 (Dal Yeon-eo)
+
+<br>
+
+## 라이선스
+
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko)
+
+이 프로그램은 **CC BY-NC-SA 4.0** 라이선스로 공개해요. 달연어가 직접 만든 코드, 디자인, 글이 모두 포함돼요.
+
+| 조건 | 뜻 |
+| :-- | :-- |
+| **출처 표시** | 쓰거나 공유할 때 만든 사람(달연어)과 원본 주소를 꼭 밝혀주세요 |
+| **비영리** | 판매나 유료 서비스처럼 돈을 버는 데에는 쓸 수 없어요 |
+| **동일조건** | 고쳐서 공유할 때는 같은 라이선스로 공유해주세요 |
+
+개인 작업이나 전시 준비에 쓰는 건 얼마든지 자유예요. 비영리인지 애매하거나 다른 방식으로 쓰고 싶으면 [@dosalmon_ovo](https://www.instagram.com/dosalmon_ovo/)로 물어봐 주세요. 따로 허락할 수 있어요.
+
+- 아이콘은 AI 이미지 생성 도구를 활용해 만든 것이라 이 라이선스 대상에서 빠져요.
+- 글꼴(IBM Plex Sans KR, IBM Plex Mono, Noto Serif KR)은 각자의 라이선스(SIL OFL 1.1)를 따라요. [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt)에 정리했어요.
+- 이 프로그램은 있는 그대로 제공되며, 계산 결과의 정확성을 보증하지 않아요. 실제로 걸기 전에는 꼭 실측해 주세요.
+
+자세한 내용은 [LICENSE](LICENSE) 파일을 보세요.
 
 <br>
 
@@ -89,9 +110,11 @@
 canvas-ho/
 ├── index.html             프로그램 전체 (화면·디자인·계산이 모두 이 파일 하나에 있어요)
 ├── README.md              이 설명 파일
+├── LICENSE                라이선스 (CC BY-NC-SA 4.0)
+├── THIRD_PARTY_NOTICES.txt  글꼴·아이콘 등 제3자 구성요소 안내
 └── icons/
     ├── favicon.ico        브라우저 탭 아이콘
-    ├── icon-16 ~ 512.png  크기별 아이콘
+    ├── icon-16 ~ 512.png  크기별 아이콘 (AI를 활용해 만든 이미지)
     └── apple-touch-icon.png  아이폰 홈 화면 아이콘
 ```
 
